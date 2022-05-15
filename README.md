@@ -6,13 +6,13 @@
 To install the interpreter
 
 ```
-npm install brainfuck-cli
+npm install -g brainfuck-cli
 ```
 
 To run a bf file
 
 ```
-node <path-to-brainfuck.js> <path-to-bf-file> [--input]
+node brainfuck-cli <path-to-bf-file> [--input]
 ```
 
 ## Options

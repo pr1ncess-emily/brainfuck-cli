@@ -1,6 +1,6 @@
 {
   "name": "brainfuck-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "pr1ncess-emily (https://github.com/pr1ncess-emily)",
   "description": "A brainfuck interpreter for the command line written in JS",
   "keywords": ["cli", "brainfuck"],
