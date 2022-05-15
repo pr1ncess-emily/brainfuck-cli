@@ -1,0 +1,19 @@
+{
+  "name": "brainfuck-cli",
+  "version": "1.0.0",
+  "author": "pr1ncess-emily (https://github.com/pr1ncess-emily)",
+  "description": "A brainfuck interpreter for the command line written in JS",
+  "keywords": ["cli", "brainfuck"],
+  "homepage": "https://github.com/pr1ncess-emily/brainfuck-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pr1ncess-emily/brainfuck-cli.git"
+  },
+  "license": "MIT",
+  "bin": "./brainfuck.js",
+  "dependencies": {
+    "cli-color": "^2.0.2",
+    "draftlog": "^1.0.13",
+    "yargs": "^17.5.0"
+  }
+}
