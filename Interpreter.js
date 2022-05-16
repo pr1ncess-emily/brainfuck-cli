@@ -14,7 +14,7 @@ class Interpreter {
         this.mem = cellMemory;
         this.inputs = inputs;
         this.instructionPointer = 0;
-        this.loopStartIndex = 0;
+        this.loopStack = [];
         this.instructions = bfArray;
         this.output = [];
 
@@ -68,11 +68,11 @@ class Interpreter {
                     }
                     return;
                 } else {
-                    this.loopStartIndex = this.instructionPointer - 1;
+                    this.loopStack.push(this.instructionPointer - 1);
                     return;
                 }
             case ']':
-                this.instructionPointer = this.loopStartIndex;
+                this.instructionPointer = this.loopStack.pop();
                 return;
         }
     }
